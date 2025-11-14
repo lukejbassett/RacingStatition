@@ -1,6 +1,5 @@
-const API_URL = "https://api.jolpi.ca/ergast/f1/";
-
-// 
+const API_URL = import.meta.env.VITE_API_BASE;
+//
 export interface Constructor {
   name: string;
 }
